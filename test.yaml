@@ -1,0 +1,14 @@
+version: v1.0.0
+configurations:
+  development:
+    database:
+      host: "localhost"
+      port: 5432
+    api_keys:
+      google_maps: "dev_google_maps_api_key"
+  production:
+    database:
+      host: "prod-db.example.com"
+      port: 5432
+    api_keys:
+      google_maps: "prod_google_maps_api_key"
